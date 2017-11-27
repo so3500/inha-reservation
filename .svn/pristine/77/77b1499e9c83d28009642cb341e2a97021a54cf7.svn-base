@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">기안 시스템</string>
+    <string name="action_contact">Contact</string>
+
+	<string name="startSpinner">시작시간을 선택하세요</string>
+	<string name="endSpinner">종료시간을 선택하세요</string>
+	<string name="bigCategorySpinner">대분류를 선택하세요</string>
+	<string name="midCategorySpinner">중분류를 선택하세요</string>
+	<string name="smallCategorySpinner">소분류를 선택하세요</string>
+	<string name="emailSpinner">이메일 주소를 선택하세요</string>
+	<string name="airSpinner">냉/난방 사용여부를 선택하세요</string>
+	
+	<!-- 나의 예약 현황, 단체 예약 현황 -->
+	<string name="findContact">단체명을 입력하세요.</string>
+	<string name="detailedStatement">상세내역</string>
+	
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+	
+
+</resources>

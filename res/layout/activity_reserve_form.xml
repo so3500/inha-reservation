@@ -1,0 +1,555 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:id="@+id/login_home_img_btn"
+            android:background="#EAEAEA"
+            android:src="@drawable/home2"/>
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="60dp"
+            android:text="기안 신청"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="#EAEAEA" />
+          
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#EAEAEA"/>
+          
+    </LinearLayout>
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#2c3e50"
+       android:orientation="horizontal"
+       android:layout_margin="5dp" >
+
+       <TextView
+           android:id="@+id/facilityTextView"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_weight="2"
+           android:gravity="center_horizontal"
+           android:text="대운동장"
+           android:textColor="#FCFCFC"
+           android:textSize="13sp" />
+
+       <View
+           android:layout_width="3dp"
+           android:layout_height="match_parent"
+           android:background="#EAEAEA" />
+
+       <RelativeLayout
+           android:id="@+id/seekBarLayout"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="7" >
+        
+       </RelativeLayout>
+
+   </LinearLayout>
+    
+   <LinearLayout
+        android:orientation="vertical" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+       <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:text="날짜" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="15dp"
+             android:id="@+id/dateTextView" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+        
+               
+               <TextView 
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_weight="1"
+                   android:id="@+id/starttimeTextView" />
+            
+        
+            
+               <Spinner
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                   android:spinnerMode="dialog"
+                   android:prompt="@string/startSpinner"
+                   android:id="@+id/startTime" />
+               <requestFocus />
+   
+        
+        </LinearLayout>
+        
+         <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+        
+               
+               <TextView 
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_weight="1"
+                   android:id="@+id/endtimeTextView" />
+        
+            
+   
+               <Spinner
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:spinnerMode="dialog"
+                   android:gravity="center"
+                    android:layout_weight="3"
+                   android:prompt="@string/endSpinner"
+                   android:id="@+id/endTime" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+            
+               <TextView 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_weight="3"
+                   android:id="@+id/categoryTextView" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            
+               <Spinner 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:spinnerMode="dialog"
+                   android:prompt="@string/bigCategorySpinner"
+                   android:id="@+id/bigCategory" />
+               
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="/" />
+             
+               <Spinner 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:spinnerMode="dialog"
+                   android:prompt="@string/midCategorySpinner"
+                   android:id="@+id/midCategory" />
+              
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="/" />
+             
+               <Spinner 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:spinnerMode="dialog"
+                   android:prompt="@string/smallCategorySpinner"
+                   android:id="@+id/smallCategory" />
+            
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+                            
+               <TextView 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_weight="3"
+                   android:id="@+id/circleTextView" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+                            
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:hint="단체명은 사용단체 검색을 통해 입력하세요."
+                   android:textColorHint="#bdc3c7"
+                   android:textSize="13dp"
+                   android:textColor="#000000"
+                   android:singleLine = "true"
+                   android:maxLength="50"
+                android:id="@+id/circle" />
+            
+            </LinearLayout>
+            
+        </LinearLayout>
+                
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:id="@+id/phoneTextView" />
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+               android:textColor="@color/black"
+                android:hint="'-'없이 입력하세요."
+               android:textColorHint="#bdc3c7"
+                android:textSize="13dp"
+                android:singleLine = "true"
+             android:maxLength="13"
+             android:inputType="number"
+             android:id="@+id/phone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+                            
+               <TextView 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_weight="1"
+                   android:id="@+id/emailTextView" />
+                               
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+                
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1" 
+                   android:textSize="13dp"
+                   android:textColor="#000000"
+               android:singleLine = "true"
+                android:maxLength="50"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email" />
+
+               
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="\@" />
+               
+               <Spinner 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:spinnerMode="dialog"
+                   android:prompt="@string/emailSpinner"
+                   android:id="@+id/emailDomain" />
+            
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:id="@+id/eventTextView" />
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:hint="반드시 공식적인 행사명을  사용하시기 바랍니다."
+               android:textColorHint="#bdc3c7"
+                android:textSize="13dp"
+            android:singleLine = "true"
+             android:maxLength="50"
+             android:id="@+id/event" />
+
+        </LinearLayout>
+         
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:id="@+id/peopleTextView" />
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:textSize="13dp" 
+                android:textColor="#000000"
+            android:singleLine = "true"
+             android:maxLength="5"
+             android:inputType="number"
+             android:id="@+id/people" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+                
+               <TextView 
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_weight="3"
+                   android:id="@+id/airTextView" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+                
+               <Spinner 
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:spinnerMode="dialog"
+                   android:prompt="@string/airSpinner"
+                   android:id="@+id/air" />
+            
+            </LinearLayout>
+            
+        </LinearLayout>
+         
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:text="방송기자재" />
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:hint="강당내 음향,조명등 사용시 입력 "
+               android:textColorHint="#bdc3c7"
+               android:textColor="#000000"
+                android:textSize="13dp"
+            android:singleLine = "true"
+             android:maxLength="20"
+             android:id="@+id/tool" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:text="대여물품" />
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:hint="사용확인서 출력하여 해당부서로 직접 요청"
+               android:textColorHint="#bdc3c7"
+               android:textColor="#000000"
+                android:textSize="13dp"
+            android:singleLine = "true"
+             android:maxLength="50"
+             android:id="@+id/rental" />
+
+        </LinearLayout>
+            
+          <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp" >
+       
+        
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="right"
+              android:textSize="10dp"
+              android:textColor="#FF0000"
+              android:text="*표시된 항목은 필수입력 항목입니다."
+              android:id="@+id/notice" />
+       
+      </LinearLayout>
+    
+          <LinearLayout 
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center">
+        
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="신청"
+               android:id="@+id/reqBtn" />
+        
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="취소"
+               android:id="@+id/cancelBtn" />
+           
+       </LinearLayout>                
+    
+    </LinearLayout>
+        
+</LinearLayout>

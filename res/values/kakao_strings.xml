@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="kakao_app_key">87ec1bfe28baa5a6ea9434da7a327572</string> <!-- 발급받은 appkey -->
+    <string name="kakao_scheme">kakao87ec1bfe28baa5a6ea9434da7a327572</string> <!-- kakao발급받은 appkey -->
+    <string name="kakaolink_host">kakaolink</string> <!-- kakaolink -->
+</resources>

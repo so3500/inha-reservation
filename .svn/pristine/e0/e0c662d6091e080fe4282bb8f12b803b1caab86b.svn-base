@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/soccer_layout"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#166A5C"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="회의실"
+            android:textColor="#E6FAF5"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#E6FAF5" />
+
+        <RelativeLayout
+            android:id="@+id/student_placeholder1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E6FAF5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#168A5C"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="5층"
+            android:textColor="#E6FAF5"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#E6FAF5" />
+
+        <RelativeLayout
+            android:id="@+id/student_placeholder2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E6FAF5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#166A5C"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="6층"
+            android:textColor="#E6FAF5"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#E6FAF5" />
+
+        <RelativeLayout
+            android:id="@+id/student_placeholder3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </RelativeLayout>
+    </LinearLayout>
+    
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E6FAF5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#168A5C"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="가무연습실1"
+            android:textColor="#E6FAF5"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#E6FAF5" />
+
+        <RelativeLayout
+            android:id="@+id/student_placeholder4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </RelativeLayout>
+    </LinearLayout>
+    
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E6FAF5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#166A5C"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="가무연습실2"
+            android:textColor="#E6FAF5"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#E6FAF5" />
+
+        <RelativeLayout
+            android:id="@+id/student_placeholder5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </RelativeLayout>
+    </LinearLayout>
+    
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E6FAF5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#168A5C"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="가무연습실3"
+            android:textColor="#E6FAF5"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#E6FAF5" />
+
+        <RelativeLayout
+            android:id="@+id/student_placeholder6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

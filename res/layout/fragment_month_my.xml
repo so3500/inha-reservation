@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical"
+    tools:context="org.androidtown.Reservation.fragment_My" 
+    android:id="@+id/frament_month_my_LinearLayout">
+    
+        <TextView
+        android:id="@+id/MyReservation_noreserve_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="3sp"
+        android:text=""
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/MyReservation_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

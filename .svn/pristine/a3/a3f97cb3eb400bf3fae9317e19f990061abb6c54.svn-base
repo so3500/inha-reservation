@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#FCFCFC"
+    android:orientation="vertical" >
+    
+         <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+   
+        >
+        <ImageButton
+            android:id="@+id/schedule_home_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#EAEAEA"
+            android:src="@drawable/home2"
+            />
+          <TextView
+            android:layout_width="0dp"
+              android:layout_weight="3"
+            android:layout_height="60dp"
+            android:text="일정 열람"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            
+            android:background="#EAEAEA" />
+          
+                <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#EAEAEA"
+            
+            />
+          
+          </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:background="#FCFCFC"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+                
+        <ImageView
+            android:id="@+id/schedule_left_arrow"
+            android:src="@drawable/left_arrow"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="true"
+            />
+
+    
+    
+    <Button 
+          android:layout_width="0dp"
+            android:layout_weight="3"
+      android:textSize="25sp"
+            android:background="@drawable/round_calendar"
+            android:textColor="#000000"
+             android:gravity="center"
+            android:id="@+id/myReservation_date_tv"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Year-Month-Day"/>
+    
+     <ImageView 
+          android:id="@+id/schedule_right_arrow"
+            android:src="@drawable/right_arrow"
+            android:layout_height="match_parent"
+             android:layout_width="0dp"
+            android:layout_weight="1"
+             android:onClick="true"
+            />
+    
+    
+    
+    </LinearLayout>
+
+    <com.landvibe.kian82.common.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/background_tabs" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/colors"
+        android:layout_below="@+id/tabs"
+        tools:context=".ScheduleActivity" />
+
+    <LinearLayout
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>

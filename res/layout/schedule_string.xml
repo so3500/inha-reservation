@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:background="#507786"
+  android:layout_margin="3dp"
+    android:orientation="horizontal" >
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="3"
+    android:layout_height="wrap_content"
+        android:background="#507786"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/schedule_circle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="대운동장"
+        android:textColor="#E6FAF5"
+        
+        android:textSize="11sp" />
+    
+      <TextView
+        android:id="@+id/schedule_event_tv"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="대운동장"
+        android:textColor="#E6FAF5"
+        android:textSize="11sp" />
+
+
+</LinearLayout>
+  <LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="5"
+    android:layout_height="wrap_content"
+        android:background="#507786"
+        android:layout_gravity="center"
+    android:orientation="vertical" >
+ <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/schedule_time_tv"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="대운동장"
+        android:textColor="#E6FAF5"
+        android:textSize="20sp" />
+ </LinearLayout>
+</LinearLayout>

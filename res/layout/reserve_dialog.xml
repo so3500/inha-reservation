@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3EBD9"
+    android:orientation="vertical" >
+
+
+  
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3EBD9"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1. 장소별 예약안내 및 유의사항을 확인하였습니다.\n 2. 학교 주요행사 발생시 양보하겠습니다.\n 3. 다음과 같은 행사의 경우 시설물을 예약할 수 없습니다.\n   - 요청내용과 실제 사용내용이 다른 경우(예: 행사내용, 사용단체 등) \n   - 외부인 및 외부단체가 대다수 참여하는 경우\n   - 시설물 훼손 가능성이 큰 경우\n   - 화재 및 사고 위험이 큰 경우\n   - 정치적, 종교적 성향이 과도한 경우\n   - 학생신분으로서 부적절한 경우 \n 4. 운동장,다목적구장, 농구장등 기타외부장소를 이용하는 사용자의 경우 해당 시설에서 수업 진행시 수업에 방해되는 행동과 소음을 자제하여 주시기 바랍니다.\n \n
+  ※ 시설물 기안에 대한 문의사항은 학생지원팀(032-860-7066)으로 문의하시기 바랍니다. \n\n 위 사항에 동의하시면 확인을 눌러주세요\n "
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+  
+  

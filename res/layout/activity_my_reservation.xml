@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical"
+    tools:context="com.android.jian82.reservation.MyReservationActivity" >
+
+    <!-- 메뉴 바 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/login_home_img_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#EAEAEA"
+            android:src="@drawable/home2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="#EAEAEA"
+            android:gravity="center"
+            android:text="@string/myReservationCondition"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#EAEAEA" />
+    </LinearLayout>
+
+    <!-- 일시 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/myreservation_username_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:background="#FCFCFC"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/myreservation_reservenum_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:background="#FCFCFC"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        
+         <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/slash"
+            android:background="#FCFCFC"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/myreservation_completenum_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:background="#FCFCFC"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/myreservation_refresh_btn"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/arrow_refresh_icon"
+            />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:id="@+id/month_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:orientation="vertical" >
+
+        <!-- 좌우로 화면 이동 ViewPager -->
+
+         <com.landvibe.kian82.common.PagerSlidingTabStrip
+            android:id="@+id/my_reservation_tap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_tabs" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/my_reservation_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"             
+			 />
+        <!-- 기안 목록 -->
+
+    </LinearLayout>
+
+
+</LinearLayout>

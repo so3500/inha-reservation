@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2c3e50"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="horizontal" >
+
+    <ToggleButton
+        android:id="@+id/category_item_f_name_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="대운동장"
+        android:textColor="#E6FAF5"
+        android:textSize="11sp" />
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC" />
+    <LinearLayout
+          android:id="@+id/category_item_schedule_layout_holder"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+       android:layout_weight="7"
+       
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/category_item_schedule_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+      >
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+ <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FCFCFC" />
+</LinearLayout>

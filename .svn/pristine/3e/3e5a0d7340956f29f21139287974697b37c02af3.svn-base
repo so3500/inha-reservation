@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/login_home_img_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#EAEAEA"
+            android:src="@drawable/home2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="#EAEAEA"
+            android:gravity="center"
+            android:text="설정"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/setup_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/setup_auto_login"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:text="   자동로그인 설정"
+                android:textSize="20dp" />
+            
+            <Switch 
+                
+                 android:id="@+id/setup_auto_login_cb"
+                   android:layout_width="wrap_content"
+                   android:layout_alignParentRight="true"
+                android:layout_height="60dp"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:layout_marginRight="30dp"
+                
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/setup_change_information"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/setup_button_selector"
+            android:gravity="center_vertical"
+            android:onClick="true"
+            android:text="   개인정보 변경"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/setup_mycir"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/setup_button_selector"
+            android:gravity="center_vertical"
+            android:onClick="true"
+            android:text="   나의 단체 추가"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/setup_logout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/setup_button_selector"
+            android:gravity="center_vertical"
+            android:onClick="true"
+            android:text="   로그아웃"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/setup_change_mode"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/setup_button_selector"
+            android:gravity="center_vertical"
+            android:onClick="true"
+            android:text="   PC화면 변경"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/setup_developer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/setup_button_selector"
+            android:gravity="center_vertical"
+            android:onClick="true"
+            android:text="   개발자 정보"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

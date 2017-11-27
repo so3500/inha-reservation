@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/landvibe/kian82/group_reservation/GroupReservationActivity.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/src/com/landvibe/kian82/group_reservation/GroupReservationAdapter.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/src/com/landvibe/kian82/group_reservation/GroupReservationFragment.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/src/com/landvibe/kian82/my_reservation/MyReservationActivity.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/src/com/landvibe/kian82/my_reservation/MyReservationAdapter.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/src/com/landvibe/kian82/my_reservation/MyReservationFragment.java" charset="EUC-KR" />
+  </component>
+</project>

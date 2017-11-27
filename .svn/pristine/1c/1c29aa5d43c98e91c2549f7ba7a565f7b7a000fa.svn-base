@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEE1F6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1FA7E4"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/login_home_img_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#1FA7E4"
+            android:src="@drawable/home3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="#1FA7E4"
+            android:gravity="center"
+            android:text="메뉴"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+               <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/menu_log_out_btn"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:background="#CEE3F6"
+                android:onClick="onClick"
+                android:text="설정"
+                android:textSize="10dp" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+<GridLayout 
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:columnCount="3"
+    android:rowCount="4" 
+    android:background="#FFFFFF"
+    
+    >
+               
+    <Button 
+        android:text="1"
+       android:layout_rowSpan="3"
+       android:layout_gravity="fill" />
+    
+     <Button 
+        android:text="2"
+       android:layout_columnSpan="2"
+       android:layout_gravity="fill" />
+     <Button 
+        android:text="3"
+        android:layout_row="1"
+        android:layout_column="1"
+       android:layout_rowSpan="3"
+       android:layout_gravity="fill" />
+     
+          <Button 
+        android:text="4"
+        android:layout_row="1"
+        android:layout_column="2"
+       android:layout_rowSpan="3"
+       android:layout_gravity="fill" />
+          
+          <Button 
+        android:text="5"
+        android:layout_row="3"
+        android:layout_column="0"
+       android:layout_columnSpan="1"
+       android:layout_gravity="fill" />
+    
+           
+    
+</GridLayout>
+
+
+</LinearLayout>

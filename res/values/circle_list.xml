@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="circle_list">
+        <item>땅울림</item>
+        <item>INDKY</item>
+        <item>FLEX</item>
+        <item>FLAGON</item>
+        <item>풍물사랑</item>
+        <item>인다배소리</item>
+        <item>꼬망스</item>
+        <item>노래사랑</item>
+        <item>인하고전기타회</item>
+        <item>인하오케스트라</item>
+        <item>팝뮤직</item>
+        <item>개로</item>
+        <item>MRA</item>
+        <item>판타스틱스테이션</item>
+        <item>인하극예술연구회</item>
+        <item>인하합창단</item>
+        <item>JDM</item>
+        <item>CBA</item>
+        <item>증산도학생회</item>
+        <item>CMI</item>
+        <item>CAM</item>
+        <item>한국대학생선교회(CCC)</item>
+        <item>불교학생회</item>
+        <item>CFM</item>
+        <item>예수전도단</item>
+        <item>민족기독학생회</item>
+        <item>IVF</item>
+        <item>SFC</item>
+        <item>JOY선교회</item>
+        <item>ESF</item>
+        <item>네비게이토선교회</item>
+        <item>스노보드(at.G)</item>
+        <item>인하스킨스쿠버</item>
+        <item>수영부</item>
+        <item>인하라이더</item>
+        <item>스키부</item>
+        <item>이카루스</item>
+        <item>조정부</item>
+        <item>유스호스텔</item>
+        <item>탈라리아</item>
+        <item>산악회</item>
+        <item>공과대학 학생회</item>
+        <item>공과대학소모임</item>     
+        <item>IT공과대학소모임</item>
+        <item>경영대학소모임</item>
+        <item>사범대학소모임</item>
+        <item>법과대학소모임</item>
+        <item>시각정보디자인</item>
+        <item>사회과학대학소모임</item>
+        <item>문과대학소모임</item>
+        <item>의과대학소모임</item>
+        <item>생활과학대학소모임</item>
+        <item>자연과학대학소모임</item>                
+        <item>법학부</item>
+        <item>생활체육</item>
+        <item>미술</item>
+        <item>연극영화</item>
+        <item>IT공과대학 학생회</item>
+        <item>자연과학대학 학생회</item>
+        <item>경상대학 학생회</item>
+        <item>경영대학 학생회</item>
+        <item>사범대학 학생회</item>
+        <item>사회과학대학 학생회</item>
+        <item>문과대학 학생회</item>
+        <item>생활과학대학 학생회</item>
+        <item>의과대학(간호) 학생회</item>
+        <item>예술체육학부 학생회</item>
+        <item>예술체육</item>
+        <item>인하유도회</item>
+        <item>해동검도</item>
+        <item>태권도부</item>
+        <item>복싱부(IBF)</item>
+        <item>합기도</item>
+        <item>역도부</item>
+        <item>택견</item>
+        <item>검도부</item>
+        <item>소비자아동학</item>
+        <item>식품영양학</item>
+        <item>의류디자인학</item>
+        <item>아태물류학부 학생회</item>
+        <item>총학생회</item>
+        <item>생활과학부</item>
+        <item>동문회</item>
+        <item>기타모임</item>
+        <item>법학전문대학원</item>
+        <item>의학전문대학원</item>
+        <item>물류전문대학원</item>
+        <item>정보통신대학원</item>
+        <item>교육대학원</item>
+        <item>경상대학소모임</item>
+        <item>간호학과</item>
+        <item>국제언어문화학부</item>
+        <item>양현재</item>
+        <item>샘동인회</item>
+        <item>인하문학회</item>
+        <item>화우회</item>
+        <item>등대</item>
+        <item>만화촌</item>
+        <item>I.M.M</item>
+        <item>IMAGE</item>
+        <item>인문학부</item>
+        <item>문화콘텐츠학부</item>
+        <item>중국언어문화</item>
+        <item>일본언어문화</item>
+        <item>영어영문학</item>
+        <item>프랑스언어문화</item>
+        <item>아침</item>
+        <item>페다고지</item>
+        <item>인하포럼</item>
+        <item>인액터스</item>
+        <item>독서삼매경</item>
+        <item>가이와</item>
+        <item>알파카이</item>
+        <item>타임연구회</item>
+        <item>스피치연구회</item>
+        <item>A.L.A</item>
+        <item>OpenSeasame</item>
+        <item>독일언어문화</item>
+        <item>총대의원회</item>
+        <item>사학</item>
+        <item>동아리연합</item>
+        <item>철학</item>
+        <item>생활도서관</item>
+        <item>엘레판트</item>
+        <item>심성회</item>
+        <item>PAPA</item>
+        <item>아해누리</item>
+        <item>로타렉트</item>
+        <item>인하선도회</item>
+        <item>하룡회</item>
+        <item>대우회</item>
+        <item>R.C.Y</item>
+        <item>개구장이</item>
+        <item>인하장학회</item>
+        <item>트인</item>
+        <item>졸업준비학생회</item>
+        <item>TEN-X(볼링부)</item>
+        <item>비룡(야구단)</item>
+        <item>마농(농구부)</item>
+        <item>LOVE ALL(탁구부)</item>
+        <item>LaPaume(테니스부)</item>
+        <item>인하FC(축구부)</item>
+        <item>인하WICS</item>
+        <item>인하미식축구부</item>
+        <item>문화콘텐츠</item>
+        <item>문화경영</item>
+        <item>한국어문학</item>
+        <item>행정학</item>
+        <item>정치외교학</item>
+        <item>사회과학부</item>
+        <item>국어교육과</item>
+        <item>INCOM</item>
+        <item>산하사랑</item>
+        <item>애드곤</item>
+        <item>로보트연구회</item>
+        <item>기우회</item>
+        <item>나래</item>
+        <item>IAESTE</item>
+        <item>IDEA BANK</item>
+        <item>인하로케트연구회</item>
+        <item>별지기</item>
+        <item>별천지</item>
+        <item>NETers</item>
+        <item>영어교육과</item>
+        <item>사회교육과</item>
+        <item>교육학과</item>
+        <item>체육교육과</item>
+        <item>수학교육과</item>
+        <item>수학통계학부</item>
+        <item>물리화학부</item>
+        <item>생명해양과학부</item>
+        <item>수학</item>
+        <item>통계학</item>
+        <item>물리학</item>
+        <item>화학</item>
+        <item>생명과학</item>
+        <item>해양과학</item>
+        <item>기초의과학부</item>
+        <item>경제학부</item>
+        <item>국제통상학부</item>
+        <item>기계공학부</item>
+        <item>항공조선산업공학부</item>
+        <item>생명화학공학부</item>
+        <item>나노시스템공학부</item>
+        <item>신소재공학부</item>
+        <item>사회기반시스템공학부</item>
+        <item>건축학부</item>
+        <item>에너지자원공학과</item>
+        <item>항공우주공학</item>
+        <item>조선해양공학</item>
+        <item>산업공학</item>
+        <item>화학공학</item>
+        <item>생명공학</item>
+        <item>고분자신소재공학</item>
+        <item>섬유신소재공학</item>
+        <item>토목공학</item>
+        <item>환경공학</item>
+        <item>지리정보공학</item>
+        <item>건축공학</item>
+        <item>건축학</item>
+        <item>경영학부</item>
+        <item>글로벌금융학부</item>
+        <item>아태물류학부</item>
+        <item>컴퓨터정보공학부</item>
+        <item>정보통신공학부</item>
+        <item>전자공학</item>
+        <item>전기공학</item>
+        <item>언론정보학</item>
+        <item>인하가톨릭학생회</item>
+        <item>베드민턴</item>
+        <!-- 소모임들 -->
+        <item>그.축.소(그냥 축구 소모임)</item>
+        <item>쓰리쿠션(당구 소모임)</item>
+        <item>가우스(수학과)</item>
+        <item>모멘트(토목과)</item>
+        <item>루키스(전기공학과)</item>
+        <item>핫스터프</item>
+        <item>버닝핸즈</item>
+        <item>감성기타</item>
+        <item>k2</item>
+        <item>MM(Make Money)</item>
+        <item>AUTOTECH</item>
+        <item>라이브즈</item>
+        <item>북웜</item>
+        <item>H.e.A.T</item>
+        <item>블루투스</item>
+        <item>Full Swing</item>
+        <item>Resonance</item>
+        <item>커피프린스</item>
+        <item>INHA_MUN</item>
+        <item>셔틀콕</item>
+        <item>아우토반</item>
+        <item>DND</item>
+        <item>계농</item>
+        <item>빅터FC</item>
+        <item>다독다독</item>
+        <item>크레센도</item>
+        <item></item> 
+    </string-array>
+
+
+	
+
+</resources>

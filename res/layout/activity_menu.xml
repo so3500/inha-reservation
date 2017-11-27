@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/login_home_img_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/inha_logo4"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:background="#EAEAEA" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="#EAEAEA"
+            android:gravity="center"
+            android:text="INHA Univ."
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+               <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/menu_log_out_btn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:scaleType="centerInside"
+                android:background="#EAEAEA"
+                android:src="@drawable/setting_tob"
+                android:onClick="onClick">
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bdc3c7"/>
+
+
+    <RelativeLayout
+           android:id="@+id/menu_reserve_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="1.5dp"
+        android:layout_marginRight="1.5dp"
+        android:layout_marginBottom="1.5dp"
+        android:background="#E3EBD9" >
+
+  <ImageView 
+      android:src="@drawable/submit_text2"
+android:layout_alignParentLeft="true"
+android:layout_alignParentBottom="true"
+android:scaleType="fitCenter"
+      android:layout_width="90dp"
+      android:layout_height="wrap_content"      
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="-5dp"
+      />
+        
+        <ImageView 
+           
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/submit"
+            android:layout_margin="20dp"
+            
+            />
+    </RelativeLayout>
+
+
+    
+
+    
+        <RelativeLayout
+             android:id="@+id/menu_schedule_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:layout_margin="1.5dp"
+        android:background="#E5E490" >
+
+  <ImageView 
+      android:src="@drawable/schedule_text2"
+android:layout_alignParentLeft="true"
+android:layout_alignParentBottom="true"
+android:scaleType="fitCenter"
+      android:layout_width="90dp"
+      android:layout_height="wrap_content"      
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="10dp"
+      />
+        
+        <ImageView 
+             
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/schedule"
+             android:layout_margin="20dp"
+             
+            />
+    </RelativeLayout>
+
+   
+    
+    <RelativeLayout
+        android:id="@+id/menu_my_reserve_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:layout_margin="1.5dp"
+        android:background="#F3E4C7" >
+
+  <ImageView 
+      android:src="@drawable/my_text2"
+android:layout_alignParentLeft="true"
+android:layout_alignParentBottom="true"
+  android:scaleType="fitCenter"
+      android:layout_width="90dp"
+      android:layout_height="wrap_content"      
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="-5dp"
+      />
+        
+        <ImageView 
+              
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/my"
+             android:layout_marginTop="20dp"
+             android:layout_marginBottom="20dp"
+            />
+    </RelativeLayout>
+
+
+    
+        <RelativeLayout
+             android:id="@+id/menu_group_reserve_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+         android:layout_marginTop="1.5dp"
+         android:layout_marginLeft="1.5dp"
+         android:layout_marginRight="1.5dp"
+        android:background="#DDB989" >
+
+  <ImageView 
+      android:src="@drawable/group_text2"
+android:layout_alignParentLeft="true"
+android:layout_alignParentBottom="true"
+     android:scaleType="fitCenter"
+      android:layout_width="90dp"
+      android:layout_height="wrap_content"      
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="-5dp"
+      />
+        
+        <ImageView 
+             
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/group"
+             android:layout_marginTop="20dp"
+             android:layout_marginBottom="20dp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

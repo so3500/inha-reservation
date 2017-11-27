@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:orientation="vertical"
+    tools:context="org.androidtown.Reservation.GroupReservation" >
+
+    <!-- 메뉴 바 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/login_home_img_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#EAEAEA"
+            android:src="@drawable/home2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="#EAEAEA"
+            android:gravity="center"
+            android:text="@string/groupReservationCondition"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#EAEAEA" />
+    </LinearLayout>
+
+    <!-- 단체명 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/groupReservation_showReservation_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FCFCFC"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="#FCFCFC"
+            android:gravity="center"
+            android:text="@string/slash"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/groupReservation_Autotv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:hint="@string/findContact"
+            android:textSize="15sp" />
+        
+        <Button
+            android:id="@+id/groupreservation_refresh_btn"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/arrow_refresh_icon"
+            />
+    </LinearLayout>
+
+    <!-- 월 선택 -->
+
+    <LinearLayout
+        android:id="@+id/month_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical" >
+
+        <!-- 좌우로 화면 이동 ViewPager -->
+
+        <com.landvibe.kian82.common.PagerSlidingTabStrip
+            android:id="@+id/group_reservation_tap"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/background_tabs" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/group_reservation_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- 기안 목록 -->
+
+    </LinearLayout>
+
+</LinearLayout>
